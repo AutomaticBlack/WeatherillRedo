@@ -15,4 +15,8 @@ public class Weatherill
 		Start one = new Start();
 		one.startGame();
 	}
+	public void die()
+	{
+		System.out.println("You have died please try again!");
+	}
 }

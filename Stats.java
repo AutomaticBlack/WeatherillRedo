@@ -45,6 +45,7 @@ public class Stats
 		if(health<=0)
 		{
 			dead=true;
+			Weatherill die = new Weatherill();
 		}
 	}
 	public void getHealed(int value)
