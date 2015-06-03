@@ -29,5 +29,13 @@ public class Stats
 	{
 		return defend;
 	}
+	public void getAttacked(int value)
+	{
+		health=health-value;
+	}
+	public void getHealed(int value)
+	{
+		health=health+value;
+	}
 
 }
