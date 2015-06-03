@@ -45,8 +45,15 @@ public class Stats
 		if(health<=0)
 		{
 			dead=true;
-			Weatherill die = new Weatherill();
-			die.die();
+			if (name.equals(""))
+			{
+				died();
+			}
+			else
+			{
+				Weatherill died=new Weatherill();
+				died.die();
+			}
 		}
 	}
 	public void getHealed(int value)
@@ -57,6 +64,10 @@ public class Stats
 	{
 		defend=defend+10;
 		attack=attack+10;
+	}
+	public static void died()
+	{
+		System.out.println("You have slain an emeny you queer!");
 	}
 
 }
