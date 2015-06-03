@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Start extends weatherill
+public class Start
 {
 
 	Scanner keyboard = new Scanner (System.in);
@@ -10,7 +10,7 @@ public class Start extends weatherill
 
 
 		String name = keyboard.nextLine();
-		stat guy = new stat(name);
+		Stats guy = new Stats(name);
 	}
 
 

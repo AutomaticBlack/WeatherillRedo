@@ -5,7 +5,7 @@ public class Stats
 	private int health;
 	private int attack;
 	private int defend;
-	public stats(String nam)
+	public Stats(String nam)
 	{
 		health=100;
 		attack=100;
