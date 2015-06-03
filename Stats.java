@@ -12,6 +12,13 @@ public class Stats
 		defend=100;
 		name=nam;
 	}
+	public Stats(int a,int d,int h)
+	{
+		name="";
+		attack=a;
+		defend=d;
+		health=h;
+	}
 
 	public String getName()
 	{
