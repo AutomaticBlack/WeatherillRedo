@@ -37,5 +37,10 @@ public class Stats
 	{
 		health=health+value;
 	}
+	public void levelUp()
+	{
+		defend=defend+10;
+		attack=attack+10;
+	}
 
 }
