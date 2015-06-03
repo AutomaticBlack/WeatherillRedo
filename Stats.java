@@ -46,6 +46,7 @@ public class Stats
 		{
 			dead=true;
 			Weatherill die = new Weatherill();
+			die.die();
 		}
 	}
 	public void getHealed(int value)
