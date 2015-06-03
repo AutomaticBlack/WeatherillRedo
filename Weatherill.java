@@ -12,6 +12,7 @@ public class Weatherill
 	public static void main (String[]args)
 	{
 		Scanner keyboard= new Scanner (System.in);
-		Start.startGame();
+		Start one = new Start();
+		one.startGame();
 	}
 }

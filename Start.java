@@ -2,6 +2,9 @@ import java.util.*;
 
 public class Start
 {
+	public Start()
+	{
+	}
 
 	Scanner keyboard = new Scanner (System.in);
 	public void startGame()
