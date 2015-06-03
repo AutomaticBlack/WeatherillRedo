@@ -5,12 +5,14 @@ public class Stats
 	private int health;
 	private int attack;
 	private int defend;
+	private boolean dead;
 	public Stats(String nam)
 	{
 		health=100;
 		attack=100;
 		defend=100;
 		name=nam;
+		dead=false;
 	}
 	public Stats(int a,int d,int h)
 	{
@@ -18,6 +20,7 @@ public class Stats
 		attack=a;
 		defend=d;
 		health=h;
+		dead=false;
 	}
 
 	public String getName()
@@ -39,6 +42,10 @@ public class Stats
 	public void getAttacked(int value)
 	{
 		health=health-value;
+		if(health<=0)
+		{
+			dead=true;
+		}
 	}
 	public void getHealed(int value)
 	{
