@@ -31,6 +31,11 @@ public class Start
 		{
 			enemyOne.getAttacked(guy.getAttack());
 		}
+		if (choice.equals("2"))
+		{
+			guy.getAttacked(guy.getAttack());
+		}
+
 
 
 
