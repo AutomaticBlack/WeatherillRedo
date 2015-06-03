@@ -4,6 +4,7 @@ AP CS
 6.2.15
 This is the main class of the Text Based Game Weatherill
 */
+//DANIY YOU ARE A BIG FAGITO
 
 import java.util.*;
 
