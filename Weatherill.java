@@ -18,5 +18,6 @@ public class Weatherill
 	public void die()
 	{
 		System.out.println("You have died please try again!");
+		System.exit(0);
 	}
 }
