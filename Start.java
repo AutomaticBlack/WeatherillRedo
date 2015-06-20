@@ -24,7 +24,8 @@ public class Start
 
 		//THIS IS A TEST BATTLE
 		System.out.println("LETS BATTLE");
-		Stats enemyOne = new Stats(10, 10, 10);
+		//Stats method has parameters of (attack, defend, health)
+		Stats enemyOne = new Stats(10, 10, 20);
 		System.out.println("You have 2 choices, Press 1 for attack,or press 2 to kill yourself you rebel scum");
 		String choice = keyboard.nextLine();
 		if (choice.equals("1"))
